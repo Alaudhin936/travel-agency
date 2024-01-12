@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  top: -50px;
+  animation: moveleft;
+  animation-duration: 0.8s;
+  animation-iteration-count: initial;
+  animation-direction: normal;
+  animation-play-state: running;
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: white;
+  border: 1px solid;
+  height: 70vh;
+  color: black;
+  width: 150vh;
+  grid-template-areas: "booking";
+}
+#content img {
+  width: 30px;
+  margin: 0px 6px;
+}
+#content .merge {
+  top: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+  box-shadow: 0 0 10px black;
+  border-radius: 20px;
+}
+::placeholder {
+  position: relative;
+  font-family: initial;
+}
+#cancel img {
+  width: 20px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+#cancel {
+  text-align: end;
+}
+#textContent {
+  text-align: center;
+}
+#footers {
+  text-align: center;
+}
+#content button {
+  position: relative;
+  top: 40px;
+  border: none;
+  background-color: rgb(0, 76, 0);
+  height: 8vh;
+  width: 170px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+}
+#cancel img {
+  text-align: end;
+}
+#textcontent {
+  top: 50px;
+  position: relative;
+}
+#content button:hover {
+  background-color: green;
+}
+.merge input {
+  position: relative;
+  width: 300px;
+  left: 10px;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+@keyframes moveleft {
+  from {
+    transform: translateY(-200%);
+  }
+}
+#design {
+  grid-area: design;
+  background-color: purple;
+  display: none;
+}
+#content {
+  grid-area: booking;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+
+@media (max-width: 550px){
+  #container{
+    width: 300px;
+  }
+  @media(min-width:750px){
+    #container{
+      width: 400px;
+    }
+  }
+}
+@media (min-width: 550px) {
+  #container {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "design booking";
+    position: relative;
+    
+  }
+  #design {
+    display: block;
+  }
+  #design img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #bookingcontent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 20px;
+  }
+}

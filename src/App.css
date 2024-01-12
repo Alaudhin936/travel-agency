@@ -1,0 +1,148 @@
+*{
+    margin: -1.3px -0.2px;
+    padding: 0px 0px ;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: white;
+    padding-top: 130px; /* Adjust this value based on your actual navbar height */
+  margin: 0;
+}
+#logo img{
+width: 120px;
+position: relative;
+
+margin: 0px -1px;
+
+}
+
+
+#bar-icons{
+    align-items: center;
+}
+#bar-icons img{
+    width: 30px;
+}#navBar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: auto;
+    justify-content: space-between;
+    position:fixed;
+    top: 0;
+    left: 0;
+    
+  
+    width: 100%; 
+}
+
+#bar-icons ul{
+    display: flex;
+ align-items: center;  
+ margin: 27px; 
+}
+#bar-icons ul li{
+list-style: none;
+margin: 20px;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+#downArrow img{
+    width: 19px;
+    position: absolute;
+    top: 56px;
+    transition: 0.15s ease-in-out;
+}
+#userImg img{
+    width: 35px;   
+}
+#navBar #history ul{
+flex-direction: column;
+position: absolute;
+top: 42.5px;
+display: none;
+z-index: 1;
+min-width: 200px;
+background-color: rgb(25, 25, 25);  
+}
+#navBar #history:hover ul{
+    display: flex;  
+   z-index: 1;
+   
+}
+#navBar #history ul:hover {
+    display: flex;
+  }
+#navBar #history ul li{
+text-align: center;
+}
+#navBar #history{
+    justify-content: center;
+}
+#i-image img{
+    width: 20px;
+   
+    border-color: black;
+}
+#i-image li {
+    align-items: center;
+    justify-content: center;   
+}
+#downArrow img:hover{
+    transform: rotate(180deg);
+  
+}
+#history:hover #downArrow img{
+    transform: rotate(180deg);
+    
+}
+#userImg #ddarrow{
+    width: 15px;
+    margin: 0px 3px;
+    transition: 0.15s ease-in-out;
+}
+#userImg{
+    position: relative;
+
+}
+#userImg ul{
+position: absolute;
+background-color: rgb(25, 25, 25);
+flex-direction: column;
+top: 7px;
+width: 120px;
+z-index: 1;
+display: none;
+z-index: 1;
+left: -49px;
+}
+#userImg ul li{
+    margin: 12px 0;
+    display: block;
+    position: relative;
+z-index: auto;
+
+}
+#userImg:hover ul{
+  display: flex;
+  z-index: auto;
+}
+#userImg:hover #ddarrow{
+    transform: rotate(180deg);
+}
+@media  (max-width:700px) {
+    #navBar #history ul{
+        flex-direction: column;
+        position: absolute;
+        top: 62.5px;
+        display: none;
+        z-index: 1;
+        width: 800px;
+        min-width: 200px;
+        background-color: rgb(25, 25, 25);  
+        } 
+}
