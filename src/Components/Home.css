@@ -234,9 +234,7 @@ transition: 0.15s ease-in-out;
 
   padding: 10px;
 }
-body{
-  overflow-x: hidden;
-}
+
 #safetyGoImg {
   padding: 26px;
   height: 35vh;
@@ -408,9 +406,7 @@ body{
     width: 510px;
     left: -10px;
   }
-body{
-  overflow-x: hidden;
-}
+
   #safetyBorder{
     width: 240px;
     height: 220vh;
