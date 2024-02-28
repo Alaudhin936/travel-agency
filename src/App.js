@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import ManageBkgs from "./Components/ManageBkgs";
 import { Route, Routes, BrowserRouter, Link, NavLink } from "react-router-dom";
+import Home from "./Components/Home";
 import notification from "./images/active.png";
 import userImg from "./images/user.png";
 import completed from "./images/checked.png";
@@ -14,9 +15,10 @@ import downArrow from "./images/down-arrow.png";
 export default function App() {
   return (
     <BrowserRouter>
+    <div>
       <div id="navBar">
         <div id="logo">
-          <img src={CompanyLogo} alt="Company Logo" />
+          <img src={CompanyLogo} alt="Company Logo"/>
         </div>
         <div id="bar-icons">
           <ul>
@@ -31,7 +33,7 @@ export default function App() {
               <span id="downArrow">
                 <img src={downArrow} alt="Down Arrow" />
               </span>
-              <ul id="i-image">
+              <ul id="i-image" >
                 <li>
                   <img src={completed} alt="Completed Trips" />Completed Trips
                 </li>
@@ -43,8 +45,8 @@ export default function App() {
                 </li>
               </ul>
             </li>
-            <li>
-              <NavLink to="/ManageBks" style={{ textDecoration: "none", color: "white" }}>
+            <li id="mb">
+              <NavLink to="/ManageBks" style={{ textDecoration: "none", color: "white"}} >
                 Manage Bookings
               </NavLink>
             </li>
@@ -60,8 +62,10 @@ export default function App() {
           </ul>
         </div>
       </div>
+</div>
       <Routes>
-        <Route path="/ManageBks" element={<ManageBkgs />} />
+        <Route path="ManageBks" element={<ManageBkgs/>} />
+        <Route path="/" element={<Home></Home>}/>
       </Routes>
     </BrowserRouter>
   );

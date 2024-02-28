@@ -1,0 +1,432 @@
+#homee {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: orange;
+}
+body {
+  margin: 1px 10px;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  top: 190px;
+  position: relative;
+}
+#departure img,
+#destination img {
+  width: 25px;
+  margin: -3px 2px;
+  cursor: pointer;
+}
+#persons img {
+  width: 25px;
+  margin: 0px 13px;
+}
+#persons button:hover {
+  background-color: black;
+  color: white;
+}
+#persons button {
+  border: none;
+  outline: none;
+  background-color: lightgreen;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 0px 8px;
+}
+#persons {
+  align-items: center;
+  display: flex;
+  background-color: white;
+  height: 8vh;
+
+  width: 250px;
+}
+
+#bookingContainer {
+  border-radius: 0px;
+  height: 20vh;
+  width: 1258px;
+  padding: 0px 8px;
+  position: relative;
+  left: 80px;
+  background-color: rgb(46, 41, 41);
+  box-shadow: 0 0 16px rgb(33, 33, 33);
+}
+#slide {
+  background-image: url("https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnVzfGVufDB8fDB8fHww");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide-container {
+  position: relative;
+
+  height: 491px;
+  width: 900px;
+
+  margin: auto;
+}
+#departure,
+#destination {
+  width: 190px;
+  margin: 0px -1px;
+  display: flex;
+  border: none;
+  background-color: rgb(248, 247, 242);
+
+  align-items: center;
+}
+#day input {
+  background: none;
+  border: none;
+  margin: 0px 5px;
+  outline: none;
+}
+#day {
+  background-color: rgb(242, 247, 247);
+  height: 8vh;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+}
+#departure select,
+#destination select {
+  border: none;
+  cursor: pointer;
+  margin: 0px 6px;
+  outline: none;
+  background: none;
+  width: 110px;
+  height: 8vh;
+}
+
+#day img {
+  width: 25px;
+  margin: -3px 2px;
+  background-size: ;
+}
+#searchBus {
+  margin: 0px 30px;
+}
+#searchBus button {
+  width: 400px;
+  background-color: rgb(89, 155, 97);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+  height: 6vh;
+  transition: 0.5s ease-in-out;
+}
+#searchBus button:hover {
+  background-color: rgb(37, 211, 37);
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+#bookingContainer {
+  display: flex;
+  position: relative;
+  margin-top: -100px;
+  flex-direction: row;
+  align-items: center;
+}
+h6 {
+  cursor: pointer;
+  margin: 0px 6px;
+}
+body {
+  overflow: visible;
+  background-color: rgb(41, 38, 38);
+}
+h6 :hover {
+  color: rgb(106, 106, 75);
+}
+#locations {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+#locations div {
+  margin: 0px 30px;
+}
+#locations #chennai,
+#delhi,
+#trichy,
+#banglore,
+#hydrabad {
+  box-shadow: 0 0 16px rgb(54, 50, 50);
+  text-align: center;
+transition: 0.15s ease-in-out;
+  justify-content: center;
+  color: yellow;
+}
+#main-safety{
+    position: absolute;
+    top: 1230px;
+  left: 40px;
+}
+#safety{
+    position: relative;
+    margin: 0px -40px;
+    
+}
+#locations #chennai:hover,
+#delhi:hover,
+#trichy:hover,
+#banglore:hover,
+#hydrabad:hover{
+    box-shadow: 0 0 10px rgb(231, 224, 224);
+}
+#locations img {
+  width: 300px;
+  margin: 20px;
+  height: 40vh;
+  transition: 0.4s ease-in-out;
+}
+
+#loc-bar {
+  margin: 18px;
+  padding: 10px;
+}
+#loccs {
+  box-shadow: 0 0 16px rgb(55, 54, 54);
+  display: flex;
+
+  height: 10vh;
+  align-items: center;
+}
+#safety {
+  display: flex;
+  align-items: center;
+  margin: 18px;
+  padding: 10px;
+  box-shadow: 0 0 16px rgb(34, 33, 33);
+}
+
+#safetyGo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+#safetyGo {
+  padding: 10px;
+  margin: 15px;
+  justify-content: space-between;
+}
+#safetyGo img {
+  width: 100px;
+}
+#safetyGoImg img {
+  transition: 0.15s ease-in-out;
+}
+#safetyBorder {
+  box-shadow: 0 0 10px rgb(22, 22, 22);
+  width: 1208px;
+  height: 45vh;
+  margin: 38px;
+
+  padding: 10px;
+}
+body{
+  overflow-x: hidden;
+}
+#safetyGoImg {
+  padding: 26px;
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 16px rgb(21, 20, 20);
+  border-radius: 90px;
+  cursor: pointer;
+}
+#safetyImg img {
+  width: 130px;
+  height: 22vh;
+}
+#bA {
+  align-items: center;
+
+  padding: 13px;
+  text-align: center;
+
+  border-radius: 90px;
+}
+#bA img {
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+#safetyGoImg img:hover {
+  transform: scale(1.1);
+}
+
+#safetyGoLogo img {
+  width: 130px;
+  position: absolute;
+  left: 1000px;
+  margin-top: -25px;
+  height: 22vh;
+  box-shadow: 0 0 10px black;
+}
+#cctv {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 10px;
+  border-radius: 90px;
+}
+#cctv img {
+  border-radius: 120px;
+
+  height: 22vh;
+  width: 130px;
+}
+#sanitizer {
+  align-items: center;
+
+  text-align: center;
+
+  padding: 10px;
+
+  height: 36vh;
+  border-radius: 90px;
+}
+#sanitizer img {
+  width: 130px;
+  cursor: pointer;
+  border-radius: 90px;
+  height: 22vh;
+  transition: 0.15s ease-in-out;
+}
+@media (max-width:1033px){
+  body{
+    overflow-x: scroll;
+  }
+}
+
+#charging {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#charging img {
+  height: 22vh;
+  width: 130px;
+  border-radius: 90px;
+  padding: 10px;
+}
+#tyre {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+}
+#tyre img {
+  height: 20vh;
+  width: 120px;
+  border-radius: 90px;
+}
+#charging {
+  width: 140px;
+}
+#bA,
+#sanitizer,
+#charging,
+#tyre,
+#cctv {
+  box-shadow: 0 0 10px rgb(56, 54, 54);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 90px;
+  font-size: small;
+  transition: 0.15s ease-in-out;
+}
+#bA:hover,
+#sanitizer:hover,
+#charging:hover,
+#tyre:hover,
+#cctv:hover {
+  box-shadow: 0 0 10px rgb(211, 202, 202);
+  cursor: pointer;
+}
+#bA,
+#sanitizer,
+#charging,
+#tyre,
+#cctv {
+    margin: 0px 13px;
+}
+
+@media (max-width: 600px) {
+  .slide-container {
+    position: relative;
+    height: 491px;
+    width: 430px;
+    left: -40px;
+    margin: auto;
+  }
+  #bookingContainer {
+    border-radius: 0px;
+    height: 50vh;
+    position: relative;
+    left: 100px;
+    width: 560px;
+    padding: 0px 8px;
+    background-color: rgb(108, 70, 70);
+    display: flex;
+    position: relative;
+    margin-top: -100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #destination,
+  #departure,
+  #persons,
+  #day,
+  #searchBus {
+    margin: 10px 0px;
+    border-radius: 40px;
+    position: relative;
+    left: -20px;
+  }
+  #searchBus button {
+    width: 100px;
+  }
+  #loccs{
+    width: 460px;
+  }
+  #main-safety{
+    margin-top: 1300px;
+    width: 510px;
+    left: -10px;
+  }
+body{
+  overflow-x: hidden;
+}
+  #safetyBorder{
+    width: 240px;
+    height: 220vh;
+    position: relative;
+    left: 100px;
+  }
+  #safetyBorder div{
+    margin: 10px 0px;
+    position: relative;
+    left: 10px;
+  }
+  #safetyGo{
+
+flex-direction: column;
+
+
+position: relative;
+  }
+}

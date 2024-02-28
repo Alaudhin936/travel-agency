@@ -1,11 +1,13 @@
 body {
   display: flex;
   height: 100vh;
+  overflow: hidden;
+  
   justify-content: center;
   align-items: center;
 }
 #container {
-  top: -50px;
+
   animation: moveleft;
   animation-duration: 0.8s;
   animation-iteration-count: initial;
@@ -14,8 +16,9 @@ body {
   display: grid;
   grid-template-columns: 100%;
   background-color: white;
-  border: 1px solid;
-  height: 70vh;
+  position: relative;
+ 
+  min-height: 70vh;
   color: black;
   width: 150vh;
   grid-template-areas: "booking";
@@ -98,6 +101,23 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0px 10px;
+}
+@media (max-width:600px){
+#design img{
+  display: none;
+  color: wheat;
+}
+#content{
+  position: relative;
+  left: -88px;
+  text-align: center;
+  width: 440px;
+}
+#textContent{
+  text-align:center;
+  position: relative;
+  left: -2px;
+}
 }
 
 @media (max-width: 550px){

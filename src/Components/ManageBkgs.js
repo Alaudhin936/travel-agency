@@ -15,7 +15,7 @@ export default function ManageBkgs() {
     const myTicket = myTicketRef.current;
     const myName = myNameRef.current;
 
-    if (myTicket.value=="") {
+    if (myTicket.value==""){
       alert("Please Fill The Valid Ticket Number");
       return;
     }
@@ -37,8 +37,8 @@ export default function ManageBkgs() {
 
   return (
     <>
-      <div id="container" style={{ position: "relative" }}>
-        <div id="design">
+      <div id="container" style={{ position: "relative",top:"-170px" }}>
+        <div id="design" >
           <img src={bus1} alt="Bus" />
         </div>
         <div id="content">
