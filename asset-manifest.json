@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/travel-agency/static/css/main.5dbf60e1.css",
+    "main.js": "/travel-agency/static/js/main.be1cfb62.js",
+    "static/js/787.1731033c.chunk.js": "/travel-agency/static/js/787.1731033c.chunk.js",
+    "static/media/Bus1.jpg": "/travel-agency/static/media/Bus1.0ce47dd76872bfc2f120.jpg",
+    "static/media/Trichy.jpg": "/travel-agency/static/media/Trichy.7f590d9fec0e8af3a72d.jpg",
+    "static/media/Hydrabad.jpg": "/travel-agency/static/media/Hydrabad.12b4f413189ab9dc967d.jpg",
+    "static/media/BreathAnalyser.jpg": "/travel-agency/static/media/BreathAnalyser.08a24f0cef196e2fdbb3.jpg",
+    "static/media/Bengaluru.jpg": "/travel-agency/static/media/Bengaluru.b36d6423d6e2c327629f.jpg",
+    "static/media/Chennai.jpg": "/travel-agency/static/media/Chennai.055aa015a530b0e98293.jpg",
+    "static/media/tyre.jpg": "/travel-agency/static/media/tyre.3643de64a64046ff3483.jpg",
+    "static/media/discount.png": "/travel-agency/static/media/discount.04f6b2cfcf0f711fd325.png",
+    "static/media/Delhi.jpg": "/travel-agency/static/media/Delhi.ab55ca24fde046ab15a4.jpg",
+    "static/media/user.png": "/travel-agency/static/media/user.d54b5cea3dabfb92c990.png",
+    "static/media/ticket.png": "/travel-agency/static/media/ticket.e0e7aa74c1efd06629da.png",
+    "static/media/group.png": "/travel-agency/static/media/group.9b0c33ce296c267bd518.png",
+    "static/media/shield.png": "/travel-agency/static/media/shield.bc7bac93fe9fb46f0ba8.png",
+    "static/media/active.png": "/travel-agency/static/media/active.b738168287de7cc1238c.png",
+    "static/media/location.png": "/travel-agency/static/media/location.52d117cd8c33531807c1.png",
+    "static/media/Places.png": "/travel-agency/static/media/Places.e2790ebf2839a776235d.png",
+    "static/media/Sanitizer.avif": "/travel-agency/static/media/Sanitizer.c12a269af23df1522357.avif",
+    "static/media/calendar.png": "/travel-agency/static/media/calendar.24c974015dcc7b624f54.png",
+    "static/media/checked.png": "/travel-agency/static/media/checked.6f298cca57a5a8b36055.png",
+    "static/media/new.png": "/travel-agency/static/media/new.542d25ef20c6c2085979.png",
+    "static/media/departure.png": "/travel-agency/static/media/departure.67af09de9036e4c8871b.png",
+    "static/media/charging.webp": "/travel-agency/static/media/charging.8b19e2f28088cb657f16.webp",
+    "static/media/down-arrow.png": "/travel-agency/static/media/down-arrow.d1b50c1191b185006267.png",
+    "static/media/close.png": "/travel-agency/static/media/close.ffdafe3f0eceab67b7c2.png",
+    "index.html": "/travel-agency/index.html",
+    "main.5dbf60e1.css.map": "/travel-agency/static/css/main.5dbf60e1.css.map",
+    "main.be1cfb62.js.map": "/travel-agency/static/js/main.be1cfb62.js.map",
+    "787.1731033c.chunk.js.map": "/travel-agency/static/js/787.1731033c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dbf60e1.css",
+    "static/js/main.be1cfb62.js"
+  ]
+}
