@@ -7,7 +7,7 @@
 body {
   margin: 1px 10px;
   position: absolute;
-
+overflow-x: scroll;
   top: 0;
   left: 0;
   top: 190px;
@@ -234,7 +234,9 @@ transition: 0.15s ease-in-out;
 
   padding: 10px;
 }
-
+body{
+  overflow-x: hidden;
+}
 #safetyGoImg {
   padding: 26px;
   height: 35vh;
@@ -371,6 +373,21 @@ transition: 0.15s ease-in-out;
     left: -40px;
     margin: auto;
   }
+  #history{
+position: relative;
+left: -20px;
+  }
+  #mb{
+    position: relative;
+    left: -28px;
+  }
+  #history #downArrow{
+    position: relative;
+    top: -60px;
+  }
+  #bookingContainer:hover{
+    color: orange;
+  }
   #bookingContainer {
     border-radius: 0px;
     height: 50vh;
@@ -384,6 +401,10 @@ transition: 0.15s ease-in-out;
     margin-top: -100px;
     flex-direction: column;
     align-items: center;
+  }
+  #userImg{
+    position: relative;
+    left: -50px;
   }
   #destination,
   #departure,
@@ -406,7 +427,9 @@ transition: 0.15s ease-in-out;
     width: 510px;
     left: -10px;
   }
-
+body{
+  overflow-x: hidden;
+}
   #safetyBorder{
     width: 240px;
     height: 220vh;
