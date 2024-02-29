@@ -148,7 +148,7 @@ export default function Home() {
           </h6>
           <h6>
             <span>Tomorrow</span>
-          </h6>
+          </h6> 
         </div>
         <div id="persons">
           <img src={group} />
