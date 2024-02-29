@@ -365,7 +365,7 @@ body{
     margin: 0px 13px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .slide-container {
     position: relative;
     height: 491px;
@@ -404,8 +404,9 @@ left: -20px;
   }
   #userImg{
     position: relative;
-    left: -50px;
+    left: -75px;
   }
+
   #destination,
   #departure,
   #persons,
@@ -423,12 +424,12 @@ left: -20px;
     width: 460px;
   }
   #main-safety{
-    margin-top: 1300px;
+    margin-top: 1400px;
     width: 510px;
     left: -10px;
   }
 body{
-  overflow-x: hidden;
+ overflow-x: hidden;
 }
   #safetyBorder{
     width: 240px;
@@ -447,5 +448,11 @@ flex-direction: column;
 
 
 position: relative;
+  }
+}
+@media (max-width:650px){
+  #userImg{
+    position: relative;
+    left: -110px;
   }
 }
