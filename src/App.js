@@ -18,7 +18,7 @@ export default function App() {
     <div>
       <div id="navBar">
         <div id="logo">
-          <img src={CompanyLogo} alt="Company Logo"/>
+       <NavLink to="/">  <img src={CompanyLogo} alt="Company Logo"/></NavLink> 
         </div>
         <div id="bar-icons">
           <ul>
@@ -60,12 +60,15 @@ export default function App() {
              
             </li>
           </ul>
+         
         </div>
+    
       </div>
+      <div style={{color:"white",textAlign:"center",position:"relative",top:"-190px"}}><h3>Click On LessGo Icon</h3><br></br><span><h6 style={{position:"relative",top:"-30px"}}>And Explore The Portal</h6></span></div>
 </div>
       <Routes>
         <Route path="ManageBks" element={<ManageBkgs/>} />
-        <Route path="/" element={<Home></Home>}/>
+        <Route path="/" element={<Home/>}/>
       </Routes>
     </BrowserRouter>
   );
