@@ -8,7 +8,7 @@ body {
 }
 #container {
 
-  animation: moveleft;
+  animation: moveleft; 
   animation-duration: 0.8s;
   animation-iteration-count: initial;
   animation-direction: normal;
