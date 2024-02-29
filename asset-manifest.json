@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travel-agency/static/css/main.5dbf60e1.css",
-    "main.js": "/travel-agency/static/js/main.be1cfb62.js",
+    "main.css": "/travel-agency/static/css/main.371e2b57.css",
+    "main.js": "/travel-agency/static/js/main.dc3e4022.js",
     "static/js/787.1731033c.chunk.js": "/travel-agency/static/js/787.1731033c.chunk.js",
     "static/media/Bus1.jpg": "/travel-agency/static/media/Bus1.0ce47dd76872bfc2f120.jpg",
     "static/media/Trichy.jpg": "/travel-agency/static/media/Trichy.7f590d9fec0e8af3a72d.jpg",
@@ -28,12 +28,12 @@
     "static/media/down-arrow.png": "/travel-agency/static/media/down-arrow.d1b50c1191b185006267.png",
     "static/media/close.png": "/travel-agency/static/media/close.ffdafe3f0eceab67b7c2.png",
     "index.html": "/travel-agency/index.html",
-    "main.5dbf60e1.css.map": "/travel-agency/static/css/main.5dbf60e1.css.map",
-    "main.be1cfb62.js.map": "/travel-agency/static/js/main.be1cfb62.js.map",
+    "main.371e2b57.css.map": "/travel-agency/static/css/main.371e2b57.css.map",
+    "main.dc3e4022.js.map": "/travel-agency/static/js/main.dc3e4022.js.map",
     "787.1731033c.chunk.js.map": "/travel-agency/static/js/787.1731033c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dbf60e1.css",
-    "static/js/main.be1cfb62.js"
+    "static/css/main.371e2b57.css",
+    "static/js/main.dc3e4022.js"
   ]
 }
