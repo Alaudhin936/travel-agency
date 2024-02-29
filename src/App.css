@@ -176,12 +176,12 @@ z-index: auto;
     width: 100%; 
     }
     #bar-icons{
-        margin: 0px -50px;
-        gap: -10px;
+        margin: 0px -70px;
+        position: relative;
     }
     #bar-icons{
         position: relative;
-        margin: 0px -53px;
+        margin: 0px -89px;
     }
     #userImg{
 position: relative;
