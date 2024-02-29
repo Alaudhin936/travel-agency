@@ -161,6 +161,7 @@ z-index: auto;
     transform: rotate(180deg);
 }
 @media (max-width:650px) {
+  
     #disscount img{
         display: none;
     }
@@ -181,12 +182,9 @@ z-index: auto;
     }
     #bar-icons{
         position: relative;
-        margin: 0px -89px;
+        margin: 0px -119px;
     }
-    #userImg{
-position: relative;
-left: -30px;
-    }
+    
 }
 @media  (max-width:700px) {
     #navBar #history ul{
