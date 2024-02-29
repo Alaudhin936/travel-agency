@@ -160,7 +160,10 @@ z-index: auto;
 #userImg:hover #ddarrow{
     transform: rotate(180deg);
 }
-@media (max-width:550px) {
+@media (max-width:650px) {
+    #disscount img{
+        display: none;
+    }
     #navBar{
         background-color: rgb(18, 17, 17);
     display: flex;
