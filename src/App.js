@@ -25,7 +25,7 @@ export default function App() {
             <li id="disscount">
               <img src={discountLogo} title="Look For Offers" alt="Discount Logo" />
             </li>
-            <li id="notti">
+            <li id="nottii">
               <img src={notification} title="You Have One Notification" alt="Notification" />
             </li>
             <li id="history">
