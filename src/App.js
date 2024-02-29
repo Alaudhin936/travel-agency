@@ -22,10 +22,10 @@ export default function App() {
         </div>
         <div id="bar-icons">
           <ul>
-            <li>
+            <li id="disscount">
               <img src={discountLogo} title="Look For Offers" alt="Discount Logo" />
             </li>
-            <li>
+            <li id="notti">
               <img src={notification} title="You Have One Notification" alt="Notification" />
             </li>
             <li id="history">
