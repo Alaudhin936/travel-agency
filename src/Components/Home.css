@@ -364,7 +364,111 @@ body{
 #cctv {
     margin: 0px 13px;
 }
+@media (max-width:450px){
+  .slide-container {
+    position: relative;
+    height: 491px;
+    width: 430px;
+    left: -40px;
+    margin: auto;
+  }
+  #history{
+position: relative;
+left: -20px;
+  }
+  #mb{
+    position: relative;
+    left: -28px;
+  }
+  #history #downArrow{
+    position: relative;
+    top: -60px;
+  }
+  #ddarrow{
+position: relative;
+left: 36px;
+  }
+  #navBar{
+    font-size: x-small;
+  }
+  #dA{
+   position: relative;
+   left: -1px;
+  
+  }
+  #navBar #bar-icons{
+   position: relative;
+   left: -1px;
+  }
+  #accImg{
+    position: relative;
+    left: 40px;
+  }
+  #bookingContainer:hover{
+    color: orange;
+  }
+  #bookingContainer {
+    border-radius: 0px;
+    height: 50vh;
+    position: relative;
+    left: 100px;
+    width: 560px;
+    padding: 0px 8px;
+    background-color: rgb(108, 70, 70);
+    display: flex;
+    position: relative;
+    margin-top: -100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #userImg{
+    position: relative;
+    left: -75px;
+  }
 
+  #destination,
+  #departure,
+  #persons,
+  #day,
+  #searchBus {
+    margin: 10px 0px;
+    border-radius: 40px;
+    position: relative;
+    left: -20px;
+  }
+  #searchBus button {
+    width: 100px;
+  }
+  #loccs{
+    width: 460px;
+  }
+  #main-safety{
+    margin-top: 1400px;
+    width: 510px;
+    left: -10px;
+  }
+body{
+ overflow-x: hidden;
+}
+  #safetyBorder{
+    width: 240px;
+    height: 220vh;
+    position: relative;
+    left: 100px;
+  }
+  #safetyBorder div{
+    margin: 10px 0px;
+    position: relative;
+    left: 10px;
+  }
+  #safetyGo{
+
+flex-direction: column;
+
+
+position: relative;
+  }
+}
 @media (max-width: 750px) {
   .slide-container {
     position: relative;
