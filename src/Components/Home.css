@@ -443,7 +443,8 @@ left: 36px;
     width: 460px;
   }
   #main-safety{
-    margin-top: 1400px;
+  position: relative;
+  top: -1300px;
     width: 510px;
     left: -10px;
   }
