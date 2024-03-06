@@ -102,6 +102,37 @@ body {
   justify-content: center;
   margin: 0px 10px;
 }
+@media (max-width:450px){
+  #design img{ 
+  display: none;
+  color: wheat;
+  }
+
+  #content{
+    position: relative;
+    left: -88px;
+    text-align: center;
+    width: 440px;
+  }
+  #textContent{
+    text-align:center;
+    position: relative;
+    left: -2px;
+  }
+  #textContent h5{
+    font-size: x-small;
+  }
+  #notti img{
+    width: 20px;
+    visibility: hidden;
+  }
+  .merge {
+    width: 300px;
+    position: relative;
+    left: 70px;
+  }
+  
+}
 @media (max-width:600px){
 #design img{
   display: none;
