@@ -49,7 +49,7 @@ export default function ManageBkgs() {
             <h2>Manage Bookings</h2>
             <br />
             <h5>
-              Enter The Details Below And Please Help Us To retrieve The Ticket
+              Fill Up the Details Below And Please Help <br></br>Us To retrieve The Ticket
               For You{" "}
             </h5>
           </div>
