@@ -31,7 +31,7 @@ export default function App() {
             <li id="history">
               My Bookings
               <span id="downArrow">
-                <img src={downArrow} alt="Down Arrow" />
+                <img src={downArrow} alt="Down Arrow" id="dA" />
               </span>
               <ul id="i-image" >
                 <li>
@@ -51,7 +51,7 @@ export default function App() {
               </NavLink>
             </li>
             <li id="userImg">
-              <img src={userImg} title="User Login" alt="User Login" />
+              <img id="accImg" src={userImg} title="User Login" alt="User Login" />
               <ul>
                 <li>Login</li>
                 <li>New User?</li>
